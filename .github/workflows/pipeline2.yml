@@ -2,7 +2,7 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "feature/TechChallengeFase3" ]
+    branches: [ "TechChallengeFase3" ]
   pull_request:
     branches: [ "TechChallengeFase3" ]
 
