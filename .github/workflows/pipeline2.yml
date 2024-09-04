@@ -1,3 +1,4 @@
+on: workflow_dispatch
 name: Java CI with Gradle
 
 on:
