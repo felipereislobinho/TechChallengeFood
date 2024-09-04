@@ -2,9 +2,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "TechChallengeFase3" ]
+    branches: [ "teste" ]
   pull_request:
-    branches: [ "TechChallengeFase3" ]
+    branches: [ "teste" ]
 
 env:
   ECR_REPOSITORY: lanchonete
