@@ -31,6 +31,9 @@ jobs:
           distribution: 'adopt'
           java-version: '17'
 
+      - name: Set permissions for Gradle wrapper
+        run: chmod +x ./tech-challenge-fase-1-main/tech-challenge-fase-1-main/gradlew    
+
       - name: Build with Gradle
         run: |
           ./tech-challenge-fase-1-main/tech-challenge-fase-1-main/gradlew build --no-daemon
