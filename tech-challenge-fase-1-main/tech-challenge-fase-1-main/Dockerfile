@@ -13,7 +13,7 @@ RUN gradle build || return 0
 COPY . .
 RUN gradle clean build
     
-
+     
 
 FROM amazoncorretto:17-alpine3.18-jdk
 
