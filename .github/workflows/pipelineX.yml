@@ -5,6 +5,8 @@ on:
     branches: [ "origin/teste" ]
   pull_request:
     branches: [ "origin/teste" ]
+  workflow_dispatch:
+  
 
 env:
   ECR_REPOSITORY: lanchonete
