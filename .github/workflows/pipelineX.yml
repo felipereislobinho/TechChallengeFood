@@ -33,7 +33,7 @@ jobs:
 
       - name: Build with Gradle
         run: |
-          .tech-challenge-fase-1-main/tech-challenge-fase-1-main/gradlew build --no-daemon
+          ./tech-challenge-fase-1-main/tech-challenge-fase-1-main/gradlew build --no-daemon
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
