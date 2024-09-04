@@ -22,7 +22,7 @@ ENV APP_HOME=/usr/app/
 
 # Set the working directory in the container
 WORKDIR $APP_HOME
-
+    
 # Copy the Gradle build files
 COPY --from=TEMP_BUILD_IMAGE $APP_HOME/build/libs/$ARTIFACT_NAME .
 
